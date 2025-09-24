@@ -1,6 +1,6 @@
 # SQuAD-it-2
 
-A dataset that extends [SQuAD-IT](https://huggingface.co/datasets/crux82/squad_it) by adding **wrong answers** for each example, enabling evaluation and training of models on tasks like answer plausibility detection, multiple-choice QA, or robustness to misleading options. The dataset includes a total of 61.768 samples (54.159 for training and 7.609 for test). Each sample consists of a question, a supporting context passage, and a correct answer (all taken from the original SQuAD-IT), plus an additional wrong answer which we generated using Gemini-2.
+A dataset that extends [SQuAD-IT](https://huggingface.co/datasets/crux82/squad_it) by adding **wrong answers** for each example, enabling evaluation and training of models on tasks like answer plausibility detection, multiple-choice QA, or robustness to misleading options. The dataset includes a total of **61.768 samples** (54.159 for training and 7.609 for test). Each sample consists of a question, a supporting context passage, and a correct answer (all taken from the original SQuAD-IT), plus an additional wrong answer which we generated using Gemini-2.
 
 ## 🧩 Dataset Versions
 
